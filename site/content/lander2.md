@@ -5,8 +5,7 @@ image: /images/robby.webp
 imagealt: "A handsome devil"
 intro:
     heading: Sell Your House Fast For Cash
-    text:
-        We Buy Houses Fast For Cash in North East Ohio,<br> just fill out this form to get an offer.
+    text: "We Buy Houses Fast For Cash in North East Ohio,<br> just fill out this form to get an offer."
 contact:
     button: "Request an Offer"
 newsletter:

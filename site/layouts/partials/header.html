@@ -4,9 +4,9 @@
         <br />
         <a href="tel:+1{{ .Site.Params.tel }}">{{ .Site.Params.phone }}</a><br />
     </div>
-    <h1>{{ .Title }} | {{ $.Site.Title }}</h1>
+    <h1>{{ $.Title | default $.Site.Title }}</h1>
     <br />
     <br />
-    <h2>{{ $.Params.blurb.heading }}</h2>
-    <p>{{ $.Params.blurb.text }}</p>
+    <h2>{{ .Params.intro.heading }}</h2>
+    <p>{{ .Params.intro.text | safeHTML }}</p>
 </header>
