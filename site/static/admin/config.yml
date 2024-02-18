@@ -5,58 +5,29 @@ media_folder: "site/static/images" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-
+  - name: "variation" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Variation" # Used in the UI, ie.: "New Post"
+    folder: "site/content/variation" # The path to the folder where the documents are stored
+    path: "{{slug}}/index" # Each document is inside a folder with the slug name.
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: "Intro", name: intro, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Contact", name: contact, widget: object, fields: [
+              {label: "Button", name: "button", widget: string}]}
+          - {label: "Newsletter", name: newsletter, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Button", name: "button", widget: "text"}]}
   - name: "pages"
     label: "Pages"
     files:
       - file: "site/content/_index.md"
         label: "Default Lander"
         name: "home"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Contact", name: contact, widget: object, fields: [
-              {label: "Button", name: "button", widget: string}]}
-          - {label: "Newsletter", name: newsletter, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Button", name: "button", widget: "text"}]}
-      - file: "site/content/landera/_index.md"
-        label: "Lander A"
-        name: "landera"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Contact", name: contact, widget: object, fields: [
-              {label: "Button", name: "button", widget: string}]}
-          - {label: "Newsletter", name: newsletter, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Button", name: "button", widget: "text"}]}
-      - file: "site/content/landerb/_index.md"
-        label: "Lander B"
-        name: "landerb"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Contact", name: contact, widget: object, fields: [
-              {label: "Button", name: "button", widget: string}]}
-          - {label: "Newsletter", name: newsletter, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Button", name: "button", widget: "text"}]}
-      - file: "site/content/landerc/_index.md"
-        label: "Lander C"
-        name: "landerc"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
