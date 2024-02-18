@@ -39,7 +39,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Newsletter", name: newsletter, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Button", name: "button", widget: "text"}]}
-      - file: "site/content/landera/_index.md"
+      - file: "site/content/landerb/_index.md"
         label: "Lander B"
         name: "landerb"
         fields:
@@ -54,7 +54,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Newsletter", name: newsletter, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Button", name: "button", widget: "text"}]}
-      - file: "site/content/landera/_index.md"
+      - file: "site/content/landerc/_index.md"
         label: "Lander C"
         name: "landerc"
         fields:
