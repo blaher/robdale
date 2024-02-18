@@ -21,7 +21,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Text", name: "text", widget: "text"}]}
           - {label: "Contact", name: contact, widget: object, fields: [
               {label: "Button", name: "button", widget: string}]}
-          - {label: "Contact", name: contact, widget: object, fields: [
+          - {label: "Newsletter", name: newsletter, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Button", name: "button", widget: "text"}]}
       - file: "site/content/landera/_index.md"
@@ -36,7 +36,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Text", name: "text", widget: "text"}]}
           - {label: "Contact", name: contact, widget: object, fields: [
               {label: "Button", name: "button", widget: string}]}
-          - {label: "Contact", name: contact, widget: object, fields: [
+          - {label: "Newsletter", name: newsletter, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Button", name: "button", widget: "text"}]}
       - file: "site/content/landera/_index.md"
@@ -51,7 +51,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Text", name: "text", widget: "text"}]}
           - {label: "Contact", name: contact, widget: object, fields: [
               {label: "Button", name: "button", widget: string}]}
-          - {label: "Contact", name: contact, widget: object, fields: [
+          - {label: "Newsletter", name: newsletter, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Button", name: "button", widget: "text"}]}
       - file: "site/content/landera/_index.md"
@@ -66,7 +66,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Text", name: "text", widget: "text"}]}
           - {label: "Contact", name: contact, widget: object, fields: [
               {label: "Button", name: "button", widget: string}]}
-          - {label: "Contact", name: contact, widget: object, fields: [
+          - {label: "Newsletter", name: newsletter, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Button", name: "button", widget: "text"}]}
   - name: "site_settings"
