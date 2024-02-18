@@ -1,18 +1,17 @@
 ---
 variation: 1
-title: "Rob Dale Realtor"
+title: Rob Dale Realtor
 subtitle: Who is Rob Dale?
 image: /images/robby.webp
-imagealt: "A handsome devil"
 intro:
-    heading: Sell Your House Fast For Cash!!!!!!!
-    text:
-        It works.
+  heading: Sell Your House Fast For Cash!!!!!!!
+  text: It works. Test?
 contact:
-    button: "Request an Offer"
+  button: Request an Offer
+imagealt: A handsome devil
 newsletter:
-    heading: "Or call us at:"
-    button: "Request an Offer"
+  heading: "Or call us at:"
+  button: Request an Offer
 ---
 
 Rob Dale is the man! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quaerat natus impedit esse nobis quas nemo delectus dolores aliquid nulla reiciendis magni distinctio, nam, eaque quod et possimus totam aperiam.
