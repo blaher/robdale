@@ -2,7 +2,7 @@
     <div class="rob">
         <img width="200px" height="200px" src="{{ .Params.image }}" alt="{{ .Params.imagealt }}" />
         <br />
-        <a href="tel:+1{{ .Tel }}">{{ .Phone }}</a><br />
+        <a href="tel:+1{{ .Site.Params.tel }}">{{ .Site.Params.phone }}</a><br />
     </div>
     <h1>{{ .Title }} | {{ $.Site.Title }}</h1>
     <br />
