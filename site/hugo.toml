@@ -1,7 +1,11 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Kaldi"
+title = "Rob's Default Title"
+subtitle = "Rob's Default Subtitle"
+phone = "(330) 484-1234"
+tel = "3304841234"
+copyright = "2024 Rob Dale."
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 

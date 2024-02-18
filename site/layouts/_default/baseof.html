@@ -1,11 +1,23 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
   {{ partial "head" . }}
-  <body class="sans-serif">
+  <body class="is-preload">
 
-    {{ block "header" . }}{{ partial "nav" . }}{{end}}
+    {{ block "header" . }}{{ partial "header" . }}{{end}}
 
-    {{ block "main" . }}{{ end }}
+    {{ block "contact-form" . }}{{ partial "contact-form" . }}{{end}}
+
+    <br />
+    <div>
+    <article>
+      {{ block "main" . }}{{ end }}
+      
+      {{ block "newsletter-form" . }}{{ partial "newsletter-form" . }}{{end}}
+
+      <p>Or call us at:</p>
+      <a href="tel:+13304841234">(330) 484-1234</a>
+    </article>
+    </div>
 
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 

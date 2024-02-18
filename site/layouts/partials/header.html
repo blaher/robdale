@@ -1,0 +1,12 @@
+<header id="header">
+    <div class="rob">
+        <img width="200px" height="200px" src="{{ .Params.image }}" alt="{{ .Params.imagealt }}" />
+        <br />
+        <a href="tel:+1{{ .Tel }}">{{ .Phone }}</a><br />
+    </div>
+    <h1>{{ .Title }} | {{ $.Site.Title }}</h1>
+    <br />
+    <br />
+    <h2>{{ $.Params.blurb.heading }}</h2>
+    <p>{{ $.Params.blurb.text }}</p>
+</header>
