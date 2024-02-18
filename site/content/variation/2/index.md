@@ -1,4 +1,5 @@
 ---
+variation: 2
 title: "Rob Dale Realtor"
 subtitle: Who is Rob Dale?
 image: /images/robby.webp
