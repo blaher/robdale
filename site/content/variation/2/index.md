@@ -2,7 +2,7 @@
 variation: 2
 title: "Rob Dale Realtor"
 subtitle: Who is Rob Dale?
-image: /images/robby.webp
+image: images/robby.webp
 imagealt: "A handsome devil"
 intro:
     heading: Sell Your House Fast For Cash!!!!!!!
