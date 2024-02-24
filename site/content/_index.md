@@ -1,17 +1,16 @@
 ---
-title: "Rob Dale Realtor"
-subtitle: Who is Rob Dale?
-image: images/robby.webp
-imagealt: "A handsome devil"
+title: ROB DALE
+subtitle: EXP REALTY
+image: img/277889357_316655393910304_1403801988004569169_n.jpg
+imagealt: A handsome devil
 intro:
-    heading: Sell Your House Fast For Cash
-    text:
-        We Buy Houses Fast For Cash in North East Ohio,<br> just fill out this form to get an offer.
+  heading: FIND OUT HOW MUCH YOUR HOME IS WORTH TODAY!
+  text: Enter the information about your home below to get a free home valuation!
 contact:
-    button: "Request an Offer"
+  button: Whats my home worth?
 newsletter:
-    heading: "Or call us at:"
-    button: "Request an Offer"
+  heading: Delete this
+  button: delete this
 ---
 
 Rob Dale is the man! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quaerat natus impedit esse nobis quas nemo delectus dolores aliquid nulla reiciendis magni distinctio, nam, eaque quod et possimus totam aperiam.
