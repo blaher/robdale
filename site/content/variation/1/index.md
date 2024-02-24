@@ -2,12 +2,13 @@
 variation: 1
 title: Rob Dale Realtor
 subtitle: Who is Rob Dale?
-image: images/robby.webp
+image: 2.png
 intro:
-  heading: Sell Your House Fast For Cash!!!!!!!
-  text: It works. Test?
+  heading: FIND OUT HOW MUCH YOU CAN SELL YOUR HOUSE FOR TODAY!
+  text: How it works, enter the information about your home below and get a
+    valuation in the next 24 hours!
 contact:
-  button: Request an Offer
+  button: "Phone number? "
 imagealt: A handsome devil
 newsletter:
   heading: "Or call us at:"
