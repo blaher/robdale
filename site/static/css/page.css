@@ -856,6 +856,44 @@ button,
         margin-top: 0;
         position: absolute; } }
 
+        #contact-form {
+          display: -moz-flex;
+          display: -webkit-flex;
+          display: -ms-flex;
+          display: flex;
+          position: relative; }
+          #contact-form input[type="text"],
+          #contact-form input[type="password"],
+          #contact-form input[type="email"] {
+            width: 18em;
+          }
+          #contact-form > * {
+            margin: 0 0 0 1em; }
+          #contact-form > :first-child {
+            margin: 0 0 0 0; }
+          @media screen and (max-width: 736px) {
+            #contact-form {
+              -moz-flex-direction: column;
+              -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+              flex-direction: column; }
+              #contact-form input[type="text"],
+              #contact-form input[type="password"],
+              #contact-form input[type="email"] {
+                display: block;
+                min-width: 100%;
+                width: 100%; }
+              #contact-form > * {
+                margin: 1.25em 0 0 0; }
+              #contact-form .message {
+                bottom: -1.5em;
+                font-size: 0.9em;
+                height: 1em;
+                left: 0;
+                line-height: inherit;
+                margin-top: 0;
+                position: absolute; } }
+
 /* Footer */
 #footer {
   -moz-transition: opacity 0.5s ease-in-out;
